@@ -48,11 +48,11 @@
     <!-- --------header section------- -->
     <header class="w-11/12 mx-auto py-3">
       <!-- ------navber------ -->
-      <nav class="">
+      <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start flex items-center space-x-2">
             <i class="fa-solid fa-arrow-right -rotate-45 bg-success_color p-2 rounded-full"></i>
-            <a class="font-bold text-3xl"> Rinterio</a>
+            <a href="#" class="font-bold text-3xl"> Rinterio</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-lg font-semibold text-slate-600">
@@ -64,16 +64,16 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <div class="space-x-3 hidden sm:block sm:flex items-center justify-center">
-              <i class="fa-solid fa-magnifying-glass bg-slate-50 shadow-md p-3 rounded-full"></i>
-              <i class="fa-solid fa-cart-shopping  bg-slate-50 shadow-md p-3 rounded-full"></i>
-              <a class="btn bg-success_color rounded-full font-semibold text-lg">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white ml-2"></i></a>
+            <div class="space-x-3 hidden sm:block lg:flex md:flex items-center justify-center">
+              <a href="#" class="fa-solid fa-magnifying-glass bg-slate-50 shadow-md p-3 rounded-full"></a>
+              <a href="#" class="fa-solid fa-cart-shopping  bg-slate-50 shadow-md p-3 rounded-full"></a>
+              <a href="#" class="btn bg-success_color rounded-full font-semibold text-lg">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white ml-2"></i></a>
             </div>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <i class="fa-solid fa-bars font-bold text-xl  bg-slate-50 shadow-md p-1 rounded-full"></i>
+                <i class="fa-solid fa-bars font-bold text-lg bg-slate-50 shadow-md px-3 py-1 rounded-full"></i>
               </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0 shadow">
+              <ul tabindex="0" class="menu menu-sm dropdown-content font-semibold text-lg space-y-4 bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0 shadow">
                 <li class="hover:text-black duration-200 transition-all ease-in"><a href="#">Home</a></li>
                 <li class="hover:text-black duration-200 transition-all ease-in"><a href="#">Services</a></li>
                 <li class="hover:text-black duration-200 transition-all ease-in"><a href="#">Portfolio</a></li>
@@ -97,7 +97,7 @@
        </section>
     </header>
     <!-- -------main section-------- --> 
-    <main class="bg-black/10 py-12">
+    <main class="bg-slate-400/10 py-12">
       <!-- ------main section content----- -->
        <div class="w-11/12 mx-auto grid md:grid-cols-1 gap-14 lg:grid-cols-2">
           <!-- -----liveable space content---- -->
@@ -132,10 +132,10 @@
          </div>
        </div>
 
-       <!-- ------social section------ -->
-        <div class="w-11/12 mx-auto">
+      <!-- ------social section------ -->
+       <div class="w-11/12 mx-auto py-16">
           <!-- -------social cart content------- -->
-          <div  class="lg:space-y-6 space-y-3 lg:my-16 my-12 text-center">
+          <div  class="lg:space-y-6 space-y-3 text-center pb-8">
             <a href="#" class="btn bg-white rounded-full text-lg font-semibold"><i class="fa-solid fa-arrow-right"></i> How we works</a>
             <h2 class="lg:text-4xl text-3xl font-bold">Our Works Process</h2>
             <p class="text-desc_color font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
@@ -167,7 +167,48 @@
             <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
            </div>
           </div>
+       </div>
+
+       <!-- ------Our Latest Portfolio section------- -->
+       <div class="lg:bg-white lg:py-16">
+        <!---------latest portfolio body---------  -->
+        <div class="w-11/12 mx-auto">
+        <!-- ------latest content------- -->
+        <div  class="lg:space-y-4 space-y-3  text-center ">
+          <a href="#" class="btn bg-secondary_success  rounded-full text-lg font-semibold"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</a>
+          <h2 class="lg:text-4xl text-3xl font-bold">Our Latest Portfolio</h2>
+          <p class="text-desc_color font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
         </div>
+        <!-- ------Challange part------- -->
+        <div class="grid grid-cols-1 gap-5 lg:grid-cols-4 md:grid-cols-2">
+
+          <div class="bg-cyan-500 lg:flex md:flex flex-col gap-8 p-5 rounded-xl col-span-3">
+            <div><img class="w-[320px] h-[200px]" src="./assets/img1.png" alt="">
+            </div>  
+            <div>
+              <h4>Commercial</h4>
+              <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <a href="#">View Details</a>
+            </div>          
+          </div>
+          <div class="bg-cyan-500 rounded-xl"></div>
+          <div class="bg-cyan-500 rounded-xl"></div>
+          <div class="bg-cyan-500 rounded-xl col-span-2"></div>
+          <div class="bg-cyan-500 rounded-xl"></div>
+        </div>
+       </div>
+       </div>
+      
+       <!-- -------Rinterio News section---------- -->
+       <div class="w-11/12 mx-auto">
+        <!-- -------RINTERIO CONTENT SECTION------ -->
+        <div  class="lg:space-y-4 space-y-3 lg:mt-12 text-center ">
+          <a href="#" class="btn bg-secondary_success  rounded-full text-lg font-semibold"><i class="fa-solid fa-arrow-right"></i>Rinterio News</a>
+          <h2 class="lg:text-4xl text-3xl font-bold">Read Our Articles and News</h2>
+          <p class="text-desc_color font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+       </div>
     </main>
 </body>
+
 </html>
