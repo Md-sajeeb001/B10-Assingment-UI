@@ -41,8 +41,9 @@
 </head>
 <body class="font-poppins">
     <!-- --------header section------- -->
-    <header class="bg-headerbg_color w-11/12 mx-auto">
-      <nav class="my-5">
+    <header class="w-11/12 mx-auto py-3">
+      <!-- ------navber------ -->
+      <nav class="">
         <div class="navbar bg-base-100">
           <div class="navbar-start flex items-center space-x-2">
             <i class="fa-solid fa-arrow-right -rotate-45 bg-success_color p-2 rounded-full"></i>
@@ -58,10 +59,14 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn">Button</a>
+            <div class="space-x-3 hidden sm:block sm:flex items-center justify-center">
+              <i class="fa-solid fa-magnifying-glass bg-slate-50 shadow-md p-3 rounded-full"></i>
+              <i class="fa-solid fa-cart-shopping  bg-slate-50 shadow-md p-3 rounded-full"></i>
+              <a class="btn bg-success_color rounded-full font-semibold text-lg">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white ml-2"></i></a>
+            </div>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars font-bold text-xl  bg-slate-50 shadow-md p-1 rounded-full"></i>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0 shadow">
                 <li class="hover:text-black duration-200 transition-all ease-in"><a href="#">Home</a></li>
@@ -74,6 +79,17 @@
           </div>
         </div>
       </nav>
+      <!-- ------header-content------ -->
+       <section class="mx-auto text-center">
+        <div class="inline-block">
+          <img src="./assets/banner.png" alt="">
+        </div>
+        <div class="lg:px-44 md:px-10 sm:space-y-8 space-y-6 mb-8 text-center">
+          <h1 class="lg:text-5xl text-4xl font-bold">A barn house of this design has a striking appearance</h1>
+          <p class="text-secondary_color font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="bg-secondary_success sm:px-6 font-semibold py-2 px-28 rounded-full">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-success_color p-2 rounded-full ml-2"></i></button>
+        </div>
+       </section>
     </header>
 </body>
 </html>
