@@ -24,7 +24,12 @@
                 success_color: '#abef5f',
                 desc_color: '#494949',
                 footer_color: '#1C1C1C',
-                secondary_success: '#eefcdf'
+                secondary_success: '#eefcdf',
+                cart_color1: '#e7c1d3',
+                cart_color2: '#efda6e',
+                cart_color3: '#a4dac3',
+                cart_color4: '#77aaea',
+
               }
             }
           }
@@ -91,14 +96,14 @@
         </div>
        </section>
     </header>
-    <!-- -------main section-------- -->
+    <!-- -------main section-------- --> 
     <main class="bg-black/10 py-12">
       <!-- ------main section content----- -->
        <div class="w-11/12 mx-auto grid md:grid-cols-1 gap-14 lg:grid-cols-2">
           <!-- -----liveable space content---- -->
          <div>
           <div  class="space-y-6 lg:text-left text-center ">
-            <button class="btn bg-white rounded-full"><i class="fa-solid fa-arrow-right"></i> About us</button>
+            <a href="#" class="btn bg-white rounded-full text-lg font-semibold"><i class="fa-solid fa-arrow-right"></i> About us</a>
             <h2 class="lg:text-4xl text-3xl font-bold">We design thoughtful, <br> liveable spaces</h2>
             <p class="text-desc_color font-semibold">The barn house captivates with its blend of rustic charm and 
               modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -126,7 +131,43 @@
           <img class="lg:w-full lg:h-full md:w-full md:h-full"  src="./assets/Rectangle.png" alt="">
          </div>
        </div>
-       <!-- ------------ -->
+
+       <!-- ------social section------ -->
+        <div class="w-11/12 mx-auto">
+          <!-- -------social cart content------- -->
+          <div  class="lg:space-y-6 space-y-3 lg:my-16 my-12 text-center">
+            <a href="#" class="btn bg-white rounded-full text-lg font-semibold"><i class="fa-solid fa-arrow-right"></i> How we works</a>
+            <h2 class="lg:text-4xl text-3xl font-bold">Our Works Process</h2>
+            <p class="text-desc_color font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <!-- -------social carts------ -->
+          <div class="grid grid-cols-1 gap-5 lg:grid-cols-4 md:grid-cols-2">
+          <!-- --------social cart 1------- -->
+           <div class="w-full bg-cart_color1 p-6 rounded-lg space-y-2">
+            <img src="./assets/concept.png" alt="">
+            <h3 class="text-lg font-bold">Concept</h3>
+            <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+           </div>
+          <!-- --------social cart 2------- -->
+          <div class="w-full bg-cart_color2 p-6 rounded-lg space-y-2">
+            <img src="./assets/flow-chart.png" alt="">
+            <h3 class="text-lg font-bold">Design Process</h3>
+            <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+           </div>
+          <!-- --------social cart 3------- -->
+          <div class="w-full bg-cart_color3 p-6 rounded-lg space-y-2">
+            <img src="./assets/vision.png" alt="">
+            <h3 class="text-lg font-bold">Supervision</h3>
+            <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+           </div>
+          <!-- --------social cart 4------- -->
+          <div class="w-full bg-cart_color4 p-6 rounded-lg space-y-2">
+            <img src="./assets/budget-planning.png" alt="">
+            <h3 class="text-lg font-bold">Budget Planning</h3>
+            <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+           </div>
+          </div>
+        </div>
     </main>
 </body>
 </html>
